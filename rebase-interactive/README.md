@@ -6,6 +6,11 @@ Run ./setup.sh && cd exercise
 
 
 ## The task
+
+Dr. Jekyll and Mr. Hide are working on a logbook while they do science
+They commit on their own branchs.
+Merge those branchs into one
+
 You again live in your own branch, this time we will be doing a bit of juggling with branches, to show how lightweight branches are in git.
 
 1. Which branches exist?
