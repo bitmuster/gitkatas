@@ -22,8 +22,13 @@ PS do not commit in interactive rebase when you have fixed
 a merge conflict, only do "git add"
 
 WTF meine shell verschwindet hin und wieder ????????????????????????????
+ - bsp git rebase .... das kommando ist allerdings trozdem gelaufen
 
+Ich habs selber noch nicht hingekriegt
 
+git rebase --continue
+git add logbook.txt 
+vim logbook.txt 
 
 
 ## Useful commands
