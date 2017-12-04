@@ -1,4 +1,6 @@
 
+TODO: Split into two: rebase interactive and deep-merge-conflict
+
 
 # Git Kata: rebase branch
 ## Setup:
