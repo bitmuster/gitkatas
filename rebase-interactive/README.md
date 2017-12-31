@@ -9,7 +9,7 @@ Run ./setup.sh && cd exercise
 
 ## The task
 
-Dr. Jekyll and Mr. Hide are working on a logbook while they do science
+Dr. Jekyll and Mr. Hyde are working on a logbook while they do science
 They commit on their own branchs.
 Merge those branchs into one.
 
