@@ -9,19 +9,19 @@ Run ./setup.sh && cd exercise
 
 ## The task
 
-Dr. Jekyll and Mr. Hyde are working on a logbook while they do science
-They commit on their own branchs.
-Merge those branchs into one.
+Dr. Jekyll and Mr. Hyde are working on a logbook while they perform
+experiments. Both commit on their own branches. Later on the two persons
+merge.
 
-Do this and keep the timeline in order.
-You can do this by doing an interactive rebase
+Your task is to merge their branches as well into one branch.
+Also keep the timeline in order. You can do this by doing an
+interactive rebase
 
 This is also a kata to cope with merge conflicts.
-
 When you listen what git says it tells you what to do next.
 
 PS do not commit in interactive rebase when you have fixed
-a merge conflict, only do "git add"
+a merge conflict, only do "git add".
 
 WTF meine shell verschwindet hin und wieder ????????????????????????????
  - bsp git rebase .... das kommando ist allerdings trozdem gelaufen
@@ -38,3 +38,4 @@ vim logbook.txt
 - `git rebase <branch-name>`
 - `git log --oneline --decorate --graph --all`
 - `git merge <branchA> <branchB>`
+
