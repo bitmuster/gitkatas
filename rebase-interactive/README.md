@@ -1,10 +1,11 @@
 
-TODO: Split into two: rebase interactive and deep-merge-conflict
-
-
 # Git Kata: rebase branch
+
 ## Setup:
-Run `./setup.sh && cd exercise`
+
+Run
+
+    ./setup.sh && cd exercise
 
 
 ## The task
@@ -28,21 +29,23 @@ git rebase --continue.
 
 
 ## Useful commands
-- `gitk --all`
-- `git checkout <branch-name>`
-- `git rebase <branch-name>`
-- `git log --oneline --decorate --graph --all`
-- `git merge <branchA> <branchB>`
+
+    gitk --all
+    git checkout <branch-name>
+    git rebase <branch-name>
+    git log --oneline --decorate --graph --all
+    git merge <branchA> <branchB>
 
 ## Solution
 
-git rebase -i master hyde
-    # 3 times
+    git rebase -i master hyde
+        # 3 times
+        git status
+        vim logbook.txt
+        git add logbook.txt
+        git rebase --continue
     git status
-    vim logbook.txt
-    git add logbook.txt
-    git rebase --continue
-git status
 
-git rebase -i <first commit new logbook>
-... and fix everything again
+    git rebase -i <first commit new logbook>
+    #... and fix everything again
+
